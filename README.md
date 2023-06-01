@@ -1,7 +1,3 @@
----
-typora-root-url: ./Image
----
-
 # hyU
 
 ## Introduction
@@ -110,7 +106,7 @@ In this example, the script `hyU_DrawRaw.R` is used to generate an image from th
 
 Output image should look like this:
 
-<img src="TEST.1415RT.jpeg" style="zoom: 25%;" />
+<img src="Image/TEST.1415RT.jpeg" style="zoom: 25%;" />
 
 ### Step 3. Develop a model for UMAP
 
@@ -185,16 +181,16 @@ The output image
 
 * `TEST.1415RT_umap1.jpeg`
 
-<img src="TEST.1415RT_umap1.jpeg" style="zoom:33%;" />
+<img src="Image/TEST.1415RT_umap1.jpeg" style="zoom:33%;" />
 
 * `TEST.1415RT_umap2.jpeg`
 
-<img src="TEST.1415RT_umap2.jpeg" style="zoom: 33%;" />
+<img src="Image/TEST.1415RT_umap2.jpeg" style="zoom: 33%;" />
 
 * Based on the visualizations, it is clear and intuitive why the threshold `umap1 < -5` is used to segment the plant region. The resulting image representing the plant region is shown below:
 * `TEST.1415RT_PlantRegion.jpeg`
 
-<img src="/TEST.1415RT_PlantRegion.jpeg" style="zoom:33%;" />
+<img src="Image//TEST.1415RT_PlantRegion.jpeg" style="zoom:33%;" />
 
 ### Step 4. Apply the UMAP model to the entire image to segment the plant region
 
@@ -259,9 +255,9 @@ Here is some examples
 
 | TEST.1415RT_PlantRegion_1000_2000_umap1.jpeg                 | TEST.1415RT_PlantRegion_1000_2000_umap2.jpeg                 | TEST.1415RT_PlantRegion_1000_2000.jpeg                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="/TEST.1415RT_PlantRegion_1000_2000_umap1.jpeg" style="zoom:25%;" /> | <img src="/TEST.1415RT_PlantRegion_1000_2000_umap2.jpeg" style="zoom:25%;" /> | <img src="/TEST.1415RT_PlantRegion_1000_2000.jpeg" style="zoom:25%;" /> |
+| <img src="Image/TEST.1415RT_PlantRegion_1000_2000_umap1.jpeg" style="zoom:25%;" /> | <img src="Image/TEST.1415RT_PlantRegion_1000_2000_umap2.jpeg" style="zoom:25%;" /> | <img src="Image/TEST.1415RT_PlantRegion_1000_2000.jpeg" style="zoom:25%;" /> |
 | TEST.1415RT_PlantRegion_2000_3000_umap1.jpeg                 | TEST.1415RT_PlantRegion_2000_3000_umap2.jpeg                 | TEST.1415RT_PlantRegion_2000_3000.jpeg                       |
-| <img src="TEST.1415RT_PlantRegion_2000_3000_umap1.jpeg" style="zoom:25%;" /> | <img src="TEST.1415RT_PlantRegion_2000_3000_umap2.jpeg" style="zoom:25%;" /> | <img src="TEST.1415RT_PlantRegion_2000_3000.jpeg" style="zoom:25%;" /> |
+| <img src="Image/TEST.1415RT_PlantRegion_2000_3000_umap1.jpeg" style="zoom:25%;" /> | <img src="Image/TEST.1415RT_PlantRegion_2000_3000_umap2.jpeg" style="zoom:25%;" /> | <img src="Image/TEST.1415RT_PlantRegion_2000_3000.jpeg" style="zoom:25%;" /> |
 |                                                              |                                                              |                                                              |
 
 
